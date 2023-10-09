@@ -1,0 +1,425 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Resources/background.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.boy {
+    width: 250px;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-image: url("Resources/poloDragon.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 460px;
+}
+
+.box2 {
+    width: 600px;
+    height: 600px;
+    background-image: url("Resources/Home2\ \(3\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.box3 {
+    width: 220px;
+    height: 220px;
+    background-image: url("Resources/Dragon.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(7, 3, 49);
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: "Arial";
+}
+
+.score1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(4, 74, 4);
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: "Arial";
+}
+
+.score2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(166, 94, 6);
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: "Arial";
+}
+
+.score3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(172, 10, 10);
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: "Arial";
+}
+
+.Finalscore {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(172, 10, 10);
+    margin-left: 50px;
+    margin-top: 40px;
+    position: absolute;
+    font-family: "Arial";
+    transform: scale(2);
+}
+
+.firstDiv1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Resources/firstBgImage.jpg");
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.boyIdle {
+    height: 500px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -200px;
+}
+
+.poloDragon {
+    height: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+
+.Dragon {
+    height: 250px;
+    position: absolute;
+    margin-left: 900px;
+}
+
+.vs {
+    height: 100vh;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.d1 {
+    width: 250px;
+    height: 60px;
+    background-color: rgb(4, 65, 4);
+    position: absolute;
+    border-radius: 20px;
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 500px;
+    transition-duration: 0.5s;
+    /* font-family: "Arial"; */
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    /* font-family: "Arial"; */
+    transition-duration: 0.5s;
+}
+
+.d1:hover {
+    background-color: rgb(2, 23, 2);
+    transform: scale(2);
+}
+
+.welcomepage {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Arial";
+    text-decoration: underline;
+}
+
+.p1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Arial";
+}
+
+.div_btn1 {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 {
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgb(42, 41, 41);
+    font-size: 45px;
+    color: rgb(204, 200, 200);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-family: "Arial";
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.lostPage {
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: "Arial";
+    display: none
+}
+
+.lostPage2 {
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: "Arial";
+    display: block;
+    z-index: 2000;
+}
+
+.img1 {
+    width: 200px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -100px;
+}
+
+.btn3 {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -300px;
+    background-color: rgb(165, 174, 165);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.wonPage {
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: "Arial";
+    display: none;
+}
+
+.wonPage2 {
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    position: absolute;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: "Arial";
+    display: block;
+    z-index: 15000;
+}
+
+.imgwon {
+    width: 200px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -95px;
+}
+
+.btn4 {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: -295px;
+    border-radius: 20px;
+    background-color: rgb(165, 174, 165);
+    transition-duration: 0.5s;
+}
+
+.a1 {
+    font-size: 30px;
+    color: black;
+    font-family: "Arial";
+}
+
+.btn5 {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 55px;
+    background-color: rgb(165, 174, 165);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.btn6 {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 55px;
+    background-color: rgb(165, 174, 165);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.btn3:hover {
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.btn4:hover {
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.btn5:hover {
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.btn6:hover {
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.btn2:hover {
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.GameControll {
+    width: 50%;
+    height: 80vh;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 70px;
+}
+
+.GameControllfont {
+    font-size: 35px;
+    font-family: "Arial";
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 50px;
+}
+
+.GameControllDivImages {
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.GameControllIMG_1 {
+    width: 300px;
+    height: 75px;
+}
+
+.GameControllIMG_2 {
+    width: 300px;
+    height: 80px;
+}
+
+mark {
+    border-radius: 5px;
+    background-color: coral;
+}
